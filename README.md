@@ -1,2 +1,2 @@
 # ML_Metabolism_Regulation
-Using Machine Learning on multiomic datasets to identify key metabolomic regulators
+Using multiomic machine learning to identify key regulators in cancer metabolism
