@@ -11,4 +11,4 @@ omics_top_features: top 10 features for all metabolite models from each of 8 omi
 
 recon_mapping: MATLAB and Python scripts for extracting genes from reactions involving metabolites of interest and matching them with top feature lists. 
 
-ML_function.ipynb: ML script for random forests, ridge regression, and lasso regression, along with example code for using histone PTM data as input. 
+ML_function.ipynb and ml_function.py: ML script for random forests, ridge regression, and lasso regression, along with example code for using histone PTM data as input. 
