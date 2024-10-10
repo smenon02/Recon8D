@@ -165,7 +165,7 @@ def train_tune_CV(classifier,data, x_cols, y_cols,
     # create multi-output ridge regression model
     model=Ridge(alpha=1.0, max_iter=None, tol=0.001, solver='auto', random_state=0)
   elif classifier=="Lasso":
-    model=Ridge(alpha=1.0, max_iter=500, tol=0.001, random_state=0)
+    model=Lasso(alpha=1.0, max_iter=500, tol=0.001, random_state=0)
 
   multi_ridge = MultiOutputRegressor(model)
   hyperParameters = {'estimator__alpha':alphas}
@@ -251,7 +251,7 @@ def train_tune_CV(classifier,data, x_cols, y_cols,
 
   final_mdls = list()
   for i in range(len(best_alphas)):
-    if classifier=="Lasso":
+    if classifier=="Ridge":
         model=Ridge(alpha=best_alphas[i], max_iter=None, tol=0.001, solver='auto', random_state=0)
     else:
         model=Lasso(alpha=best_alphas[i], max_iter=500, tol=0.001, random_state=0)
