@@ -283,7 +283,7 @@ merged_feats_mets =  pd.merge(input_features, metabolomics, left_index=True, rig
 print(merged_feats_mets.shape,flush=True)
 
 # Assign significance value (Bonferroni correction)
-pval_cutoff = 0.05 / len(my_metabs)
+pval_cutoff_ccle = 0.05 / len(my_metabs)
 
 results_df, model = train_multiRegressCV("RF",
                                             data = merged_feats_mets,
