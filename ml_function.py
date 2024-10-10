@@ -60,8 +60,8 @@ file_path = '/content/drive/My\ Drive/' + file_folder
 # %cd {file_path}
 
 # Read in data (rows = cell lines, columns = features)
-input_features = pd.read_csv('./your_file_here.csv')
-metabolomics = pd.read_csv('./your_metabolomics_here.csv')
+input_features = pd.read_csv('./your_file_here.csv',index_col=0)
+metabolomics = pd.read_csv('./your_metabolomics_here.csv',index_col=0)
 
 """# Random Forests"""
 
