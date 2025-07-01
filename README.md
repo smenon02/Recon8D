@@ -3,12 +3,16 @@ Recon8D utilizes eight omics classes (genomics (CNV and mutations), histone PTMs
 
 File descriptions
 
+ML_function.ipynb: ML script for random forests, ridge regression, and lasso regression, along with example code for using histone PTM data as input. 
+
 RF_restuls: Pearson's correlations and p-values for all metabolite models from each of 8 omics classes. Significance is determined by Bonferroni-corrected P value. 
 
-example_datasets: metabolomics and histone PTM data that can be used to test the machine lerning code present in this repository. The rest of the CCLE data and trained models may be found here: https://doi.org/10.7303/syn68236153
+omics_top_features: top 10 features for all RF metabolite models from 9 omics inputs (mutation models were trained with SVMs and top features were determined using mutual information calculations). 
 
-omics_top_features: top 10 features for all RF metabolite models from 9 omics datasets (mutation models were trained with SVMs and top features were determined using mutual information calculations). 
+Top_feats_confidence_scores: top 20 features for all RF metabolite models from 9 omics inputs along with confidence scores (0 through 8) based on how many controls that particular feature appeared in the top 20 features in.
 
 recon_mapping: MATLAB and Python scripts for extracting genes from reactions involving metabolites of interest and matching them with top feature lists. 
 
-ML_function.ipynb: ML script for random forests, ridge regression, and lasso regression, along with example code for using histone PTM data as input. 
+human_1_mapping.csv: List of metabolites from Recon3D with mapped Human1 IDs. 
+
+example_datasets: metabolomics and histone PTM data that can be used to test the machine lerning code present in this repository. The rest of the CCLE data and trained models may be found here: https://doi.org/10.7303/syn68236153
