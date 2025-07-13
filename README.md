@@ -5,7 +5,7 @@ File descriptions
 
 ML_function.ipynb: ML script for random forests, ridge regression, and lasso regression, along with example code for using histone PTM data as input. 
 
-RF_restuls: Pearson's correlations and p-values for all metabolite models from each of 8 omics classes. Significance is determined by Bonferroni-corrected P value. 
+RF_results: Pearson's correlations and p-values for all metabolite models from each of 8 omics classes. Significance is determined by Bonferroni-corrected P value. 
 
 omics_top_features: top 10 features for all RF metabolite models from 9 omics inputs (mutation models were trained with SVMs and top features were determined using mutual information calculations). 
 
