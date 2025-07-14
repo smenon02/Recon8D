@@ -5,7 +5,7 @@ File descriptions
 
 Recon8D_network.xlsx: Top 20 features for 225 RF metabolite models from 9 omics inputs along with confidence scores (0 through 8) based on the number of controls (out of 8 experiments) for which each feature appeared in the top 20.
 
-ML_function.ipynb: ML script for random forests, ridge regression, and lasso regression, along with example code for using histone PTM data as input. 
+ML_function.ipynb: ML script for random forests, XGBoost, ridge regression, and lasso regression, as well as feature importance generation. Includes example code for using histone PTM data as input. 
 
 RF_results: Pearson's correlations and P values for all metabolite models from each of 8 omics classes. Significance is determined by Bonferroni-corrected P value. 
 
