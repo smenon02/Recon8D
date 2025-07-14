@@ -9,7 +9,7 @@ ML_function.ipynb: ML script for random forests, ridge regression, and lasso reg
 
 RF_results: Pearson's correlations and P values for all metabolite models from each of 8 omics classes. Significance is determined by Bonferroni-corrected P value. 
 
-recon_mapping: MATLAB and Python scripts for extracting genes from reactions involving metabolites of interest and matching them with top feature lists. 
+recon_mapping: MATLAB and Python scripts for extracting genes from reactions involving metabolites of interest and matching them with top feature lists, as well as a csv containing common gene name to BiggID translations. 
 
 human_1_mapping.csv: List of metabolites from Recon3D with mapped Human1 IDs. 
 
